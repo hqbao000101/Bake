@@ -36,7 +36,7 @@ button {
   border: 1px solid white;
   padding: 13px 32px;
   border-radius: 5px;
-  transition: all .5s;
+  transition: all 0.5s;
   cursor: pointer;
 }
 
@@ -141,7 +141,7 @@ header .header__content nav ul li a:hover {
   align-items: center;
   text-align: center;
   cursor: pointer;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .intro .intro__item:hover {
@@ -430,7 +430,7 @@ header .header__content nav ul li a:hover {
   width: 100%;
   background-color: #ff0e83;
   padding: 1.875rem;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .team .team__content .content__item:hover .item__title {
@@ -446,7 +446,7 @@ header .header__content nav ul li a:hover {
   padding: 6.25rem 2.5rem;
   background-color: rgba(0, 0, 0, 0.6);
   opacity: 0;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .team .team__content .content__item:hover .item__overlay {
@@ -473,10 +473,15 @@ header .header__content nav ul li a:hover {
   text-align: center;
   line-height: 2.5rem;
   margin-right: 0.5rem;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-.team .team__content .content__item .item__overlay .item__overlay__social i:hover {
+.team
+  .team__content
+  .content__item
+  .item__overlay
+  .item__overlay__social
+  i:hover {
   color: #ff0e83;
   border-color: #ff0e83;
 }
@@ -557,12 +562,12 @@ header .header__content nav ul li a:hover {
   font-size: 1rem;
   font-weight: 600;
   border-radius: 5px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .contact .contact__form form input:focus {
   outline: none;
-  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .contact .contact__form form textarea {
@@ -574,12 +579,12 @@ header .header__content nav ul li a:hover {
   font-size: 1rem;
   font-weight: 600;
   border-radius: 5px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .contact .contact__form form textarea:focus {
   outline: none;
-  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .contact .contact__form form textarea::placeholder {
@@ -662,7 +667,7 @@ footer .footer__content .content__item .item__social a i {
   border: 1px solid white;
   text-align: center;
   margin-right: 10px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 footer .footer__content .content__item .item__social a i:hover {
@@ -723,7 +728,7 @@ footer > p span {
   bottom: 3rem;
   opacity: 0;
   visibility: hidden;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 .backToTop img {
   width: 3rem;
@@ -736,7 +741,7 @@ footer > p span {
 
 /* -------------------------------------------------- */
 /* ! RESPONSIVE */
-@media (max-width:1280px) {
+@media (max-width: 1280px) {
   /* TEAM */
   .team .team__content .content__item .item__overlay {
     padding: 2rem;
@@ -757,7 +762,7 @@ footer > p span {
   /* NUMBER */
   .number .number__content .content__item {
     width: 25%;
-  } 
+  }
 }
 
 @media (max-width: 992px) {
@@ -801,14 +806,14 @@ footer > p span {
   .number .number__content .content__item {
     width: 50%;
     padding: 3.125rem 10px;
-  } 
+  }
 
   /* SERVICES */
   .services .services__content {
     flex-wrap: wrap;
     width: 90%;
   }
-  
+
   .services .services__content .content__item {
     padding: 3.125rem 20px;
     width: 50%;
@@ -850,7 +855,7 @@ footer > p span {
 
   .number .number__content .content__item {
     width: 100%;
-  } 
+  }
 
   /* SERVICES */
   .services .services__content .content__item {
@@ -876,7 +881,7 @@ footer > p span {
   .contact .contact__form form textarea {
     grid-column: span 1;
   }
-  
+
   .contact .contact__form form button {
     grid-column: span 1;
   }
