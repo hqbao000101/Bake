@@ -22,6 +22,7 @@ $(document).ready(function () {
 
     // Menu Active when scrolling through sections 
     // ! Not Optimize because not work in responsive mode 
+    // ! A little collapse between click and scroll behavior on the navbar
     // todo: Improve later when learning js
     if (window.scrollY >= 720) {
       $("header .header__content nav ul li.active").removeClass("active");
